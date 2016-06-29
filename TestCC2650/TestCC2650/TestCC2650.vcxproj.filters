@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{ff58972a-c901-4814-99bc-6afbad5fe7eb}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{e335152a-d657-4cd4-bc46-2ccc6f77889f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{18ff2156-e201-4990-b802-3c81600dc3d9}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{bdc9c432-ef1c-4024-a351-79677a7a42e6}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{e7237b5d-b21d-469c-8df5-f3ff7ac84a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{5321a1ff-2288-4f75-ac7c-f5da72db6864}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LEDBlink.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SystemInit\SystemInit.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\adi.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_batmon.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_event.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_ioc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_rtc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_wuc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_adc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_smph.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_tdc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_timer.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_wuc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ccfgread.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\chipinfo.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\cpu.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\crypto.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ddi.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\debug.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\driverlib_release.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\event.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\flash.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\gpio.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\i2c.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\i2s.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\interrupt.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ioc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\osc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\prcm.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\pwr_ctrl.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rfc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rom_crypto.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\setup.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\smph.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ssi.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\systick.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\sys_ctrl.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\timer.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\trng.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\uart.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\udma.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\vims.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\watchdog.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\StartupFiles\ccfg.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\StartupFiles\startup_gcc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="cc26xx.mak">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\asmdefs.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_0_rf.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_1_synth.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_2_refsys.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_3_refsys.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_4_aux.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_batmon.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_event.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_ioc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_rtc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_sysctl.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_wuc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_aiodio.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_anaif.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_evctl.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_sce.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_smph.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_tdc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_timer.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_wuc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ccfg.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ccfg_simple_struct.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_chip_def.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_dwt.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_fpb.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_itm.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_rom_table.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_scs.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_tiprop.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_tpiu.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_crypto.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ddi.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ddi_0_osc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_device.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_event.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_fcfg1.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_flash.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_gpio.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_gpt.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_i2c.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_i2s.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ints.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ioc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_memmap.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_nvic.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_prcm.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_rfc_dbell.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_rfc_pwr.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_rfc_rat.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_smph.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ssi.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_sysctl.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_trng.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_types.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_uart.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_udma.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_vims.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_wdt.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\adi.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_batmon.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_event.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_ioc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_rtc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_wuc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_adc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_smph.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_tdc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_timer.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_wuc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ccfgread.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\chipinfo.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\cpu.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\crypto.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ddi.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\debug.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\driverlib_release.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\event.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\flash.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\gpio.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\i2c.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\i2s.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\interrupt.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ioc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\osc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\prcm.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\pwr_ctrl.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rfc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_ble_cmd.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_ble_mailbox.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_common_cmd.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_data_entry.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_mailbox.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_prop_cmd.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_prop_mailbox.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rom.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rom_crypto.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\setup.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\smph.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ssi.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\systick.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\sys_ctrl.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\timer.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\trng.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\uart.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\udma.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\vims.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\watchdog.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

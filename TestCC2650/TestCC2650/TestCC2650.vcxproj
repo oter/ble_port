@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{797DD69A-ECFF-4CB2-A00B-6645F5499E91}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeIncludeSearchPath>..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc;..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK;..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\include\c++\5.3.0;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\include\c++\5.3.0\arm-eabi\thumb\cortex_m3;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\include\c++\5.3.0\backward;d:\programs\sysgcc\5.2.0\arm-eabi\lib\gcc\arm-eabi\5.3.0\include;d:\programs\sysgcc\5.2.0\arm-eabi\lib\gcc\arm-eabi\5.3.0\include-fixed;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\sys-include;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)TestCC2650-Debug.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeIncludeSearchPath>..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc;..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK;..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\include\c++\5.3.0;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\include\c++\5.3.0\arm-eabi\thumb\cortex_m3;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\include\c++\5.3.0\backward;d:\programs\sysgcc\5.2.0\arm-eabi\lib\gcc\arm-eabi\5.3.0\include;d:\programs\sysgcc\5.2.0\arm-eabi\lib\gcc\arm-eabi\5.3.0\include-fixed;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\sys-include;d:\programs\sysgcc\5.2.0\arm-eabi\arm-eabi\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)TestCC2650-Release.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\adi.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_batmon.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_event.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_ioc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_rtc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_wuc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_adc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_smph.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_tdc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_timer.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_wuc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ccfgread.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\chipinfo.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\cpu.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\crypto.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ddi.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\debug.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\driverlib_release.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\event.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\flash.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\gpio.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\i2c.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\i2s.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\interrupt.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ioc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\osc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\prcm.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\pwr_ctrl.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rfc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rom_crypto.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\setup.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\smph.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ssi.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\systick.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\sys_ctrl.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\timer.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\trng.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\uart.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\udma.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\vims.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\watchdog.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\StartupFiles\ccfg.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\StartupFiles\startup_gcc.c" />
+    <ClCompile Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SystemInit\SystemInit.c" />
+    <ClCompile Include="LEDBlink.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cc26xx.mak" />
+    <None Include="debug.mak" />
+    <None Include="Makefile" />
+    <None Include="release.mak" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\adi.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_batmon.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_event.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_ioc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_rtc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aon_wuc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_adc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_smph.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_tdc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_timer.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\aux_wuc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ccfgread.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\chipinfo.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\cpu.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\crypto.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ddi.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\debug.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\driverlib_release.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\event.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\flash.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\gpio.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\i2c.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\i2s.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\interrupt.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ioc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\osc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\prcm.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\pwr_ctrl.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rfc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_ble_cmd.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_ble_mailbox.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_common_cmd.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_data_entry.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_mailbox.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_prop_cmd.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rf_prop_mailbox.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rom.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\rom_crypto.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\setup.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\smph.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\ssi.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\systick.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\sys_ctrl.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\timer.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\trng.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\uart.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\udma.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\vims.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\driverlib\watchdog.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\asmdefs.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_0_rf.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_1_synth.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_2_refsys.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_3_refsys.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_adi_4_aux.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_batmon.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_event.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_ioc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_rtc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_sysctl.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aon_wuc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_aiodio.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_anaif.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_evctl.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_sce.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_smph.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_tdc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_timer.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_aux_wuc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ccfg.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ccfg_simple_struct.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_chip_def.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_dwt.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_fpb.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_itm.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_rom_table.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_scs.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_tiprop.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_cpu_tpiu.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_crypto.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ddi.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ddi_0_osc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_device.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_event.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_fcfg1.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_flash.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_gpio.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_gpt.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_i2c.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_i2s.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ints.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ioc.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_memmap.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_nvic.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_prcm.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_rfc_dbell.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_rfc_pwr.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_rfc_rat.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_smph.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_ssi.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_sysctl.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_trng.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_types.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_uart.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_udma.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_vims.h" />
+    <ClInclude Include="..\..\..\VisualGDB\BSPTools\generators\cc26xx\Output\SDK\inc\hw_wdt.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
