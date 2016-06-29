@@ -18,7 +18,7 @@ CXXFLAGS := -ggdb -ffunction-sections -fno-exceptions -fno-rtti -O0
 ASFLAGS := 
 LDFLAGS := -Wl,-gc-sections
 COMMONFLAGS := 
-LINKER_SCRIPT := cc26x0f128.lds
+LINKER_SCRIPT :=
 
 START_GROUP := -Wl,--start-group
 END_GROUP := -Wl,--end-group
@@ -27,6 +27,6 @@ END_GROUP := -Wl,--end-group
 USE_DEL_TO_CLEAN := 1
 CP_NOT_AVAILABLE := 1
 
-ADDITIONAL_MAKE_FILES := stm32.mak
+ADDITIONAL_MAKE_FILES := cc26xx.mak
 GENERATE_BIN_FILE := 1
 GENERATE_IHEX_FILE := 0
